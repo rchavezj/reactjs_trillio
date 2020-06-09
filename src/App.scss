@@ -1,12 +1,27 @@
 @import "./base/base";
-@import './components/logo';
-@import "./layout/container";
-@import './layout/Header/header';
+
+@import './components/Logo/logo';
 @import './components/Search/search';
 @import './components/UserNav/userNav';
-
 @import './components/SideNav/sideNav';
+@import './components/Gallery/gallery';
+@import './components/Overview/overview';
+@import './components/BtnInline/btnInline';
+@import './components/Detail/detail';
+@import './components/Legal/legal';
+@import './components/Paragraph/paragraph';
+@import './components/List/list';
+@import './components/Recommend/recommend';
+@import './components/Review/review';
+@import './components/BtnInline/btnInline';
+@import './components/Cta/cta';
+@import './components/Btn/btn';
+
 @import './layout/Sidebar/sidebar';
+@import './layout/Description/description';
+@import "./layout/Container/container";
+@import './layout/Header/header';
+@import './layout/UserReviews/userReviews';
+
+@import './section/HotelView/hotelView';
 @import './section/Content/content';
-@import './components/legal';
-// @import "components";
