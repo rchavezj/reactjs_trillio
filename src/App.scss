@@ -3,5 +3,10 @@
 @import "./layout/container";
 @import './layout/Header/header';
 @import './components/Search/search';
-@import './components/userNav';
+@import './components/UserNav/userNav';
+
+@import './components/SideNav/sideNav';
+@import './layout/Sidebar/sidebar';
+@import './section/Content/content';
+@import './components/legal';
 // @import "components";
