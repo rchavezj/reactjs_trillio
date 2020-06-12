@@ -9,9 +9,7 @@ const Header = () => {
     return (
         <header className="header">
             <img src={logo} alt="trillo logo" className="logo" />
-
             <Search />
-
             <UserNav />
         </header >
     )
