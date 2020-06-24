@@ -8,46 +8,37 @@ import friend4 from '../../img/user-6.jpg';
 import user1 from '../../img/user-1.jpg';
 import user2 from '../../img/user-2.jpg';
 
+import List from '../List/List';
+import Paragraph from '../Paragraph/Paragraph';
+
 const Detail = () => {
     return (
         <>
             <div class="description">
-                <p class="paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                <Paragraph
+                    paragraph={
+                        `Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
                     quia aliquid? Minus quis illum ad nesciunt beatae qui cumque?
-                    Quae.
-                </p>
-                <p class="paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae.`
+                    }
+                />
+                <Paragraph
+                    paragraph={
+                        `Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, necessitatibus. Illo, dolore. Sapiente, distinctio
-                    reprehenderit?
-                </p>
+                    reprehenderit?`
+                    }
+                />
 
                 <ul class="list">
-                    <li class="list__item">
-                        Close to the beach
-                    </li>
-                    <li class="list__item">
-                        Breakfast include
-                    </li>
-                    <li class="list__item">
-                        Free airport shuttle
-                    </li>
-                    <li class="list__item">
-                        Free wifi in all rooms
-                    </li>
-                    <li class="list__item">
-                        A/C and headtin
-                    </li>
-                    <li class="list__item">
-                        Pets allowed
-                    </li>
-                    <li class="list__item">
-                        We speak all language
-                    </li>
-                    <li class="list__item">
-                        Perfect for families
-                    </li>
+                    <List caption={`Close to the beach`} />
+                    <List caption={`Breakfast include`} />
+                    <List caption={`Free airport shuttle`} />
+                    <List caption={`Free wifi in all rooms`} />
+                    <List caption={`A/C and headtin`} />
+                    <List caption={`Pets allowed`} />
+                    <List caption={`We speak all language`} />
+                    <List caption={`Perfect for families`} />
                 </ul>
 
 
