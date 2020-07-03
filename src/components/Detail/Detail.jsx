@@ -10,6 +10,7 @@ import user2 from '../../img/user-2.jpg';
 
 import List from '../List/List';
 import Paragraph from '../Paragraph/Paragraph';
+import Review from '../Review/Review';
 
 const Detail = () => {
     return (
@@ -77,47 +78,31 @@ const Detail = () => {
 
 
             <div class="user-reviews">
-                <figure class="review">
-                    <blockquote class="review__text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Maxime a ex iusto officiis tenetur!
-                    </blockquote>
+                {/* reviewText, img, userNum, name, date, reviewRating */}
+                <Review 
+                    reviewText={
+                        `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Maxime a ex iusto officiis tenetur!`
+                    }
+                    img={user1}
+                    userNum={1}
+                    name={`Nick Smith`}
+                    date={`Feb 23rd, 2017`}
+                    reviewRating={7.8}
+                />
 
-                    <figcaption class="review__user">
-                        <img
-                            src={user1}
-                            alt="user 1"
-                            class="review__photo"
-                        />
-                        <div class="review__user-box">
-                            <p class="review__user-name">Nick Smith</p>
-                            <p class="review__user-date">Feb 23rd, 2017</p>
-                        </div>
-
-                        <div class="review__rating">7.8</div>
-                    </figcaption>
-                </figure>
-
-                <figure class="review">
-                    <blockquote class="review__text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Maxime a ex iusto officiis tenetur!
-                    </blockquote>
-
-                    <figcaption class="review__user">
-                        <img
-                            src={user2}
-                            alt="user 2"
-                            class="review__photo"
-                        />
-                        <div class="review__user-box">
-                            <p class="review__user-name">Mary Thomas</p>
-                            <p class="review__user-date">Sept 19th, 2017</p>
-                        </div>
-
-                        <div class="review__rating">8.2</div>
-                    </figcaption>
-                </figure>
+                <Review 
+                    reviewText={
+                        `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Maxime a ex iusto officiis tenetur!`
+                    }
+                    img={user2}
+                    userNum={2}
+                    name={`Mary Thomas`}
+                    date={`Sept 19th, 2017`}
+                    reviewRating={8.2}
+                />
+            
 
                 <button class="btn-inline">
                     Show all

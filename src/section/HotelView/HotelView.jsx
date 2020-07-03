@@ -28,15 +28,15 @@ const HotelView = () => {
                 />
             </div>
 
+
+
             <div className="overview">
                 <Overview />
             </div>
 
 
             <div className="detail">
-
                 <Detail />
-
             </div>
 
 
