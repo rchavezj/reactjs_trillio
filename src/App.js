@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.scss';
 
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 
 const App = () => {
     return (

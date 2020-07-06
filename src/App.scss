@@ -19,7 +19,6 @@
 
 @import './layout/Sidebar/sidebar';
 @import './layout/Description/description';
-@import "./layout/Container/container";
 @import './layout/Header/header';
 @import './layout/UserReviews/userReviews';
 
@@ -27,11 +26,4 @@
 @import './section/Content/content';
 
 
-
-
-
-
-
-
-
-
+@import "./pages/Home/container";
