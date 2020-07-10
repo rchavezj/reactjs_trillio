@@ -32,7 +32,9 @@ const Overview = () => {
                     <use xlinkHref={`${svgLogo}#icon-location2`}></use>
                 </svg>
 
-                <button className="btn-inline">Albufeira, Portugal</button>
+                <button className="btn-inline">
+                    Albufeira, Portugal
+                </button>
             </div >
 
             <div className="overview__rating">

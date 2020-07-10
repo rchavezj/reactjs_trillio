@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Legal from '../../components/Legal/Legal';
 import SideNav from '../../components/SideNav/SideNav';
 
 const Sidebar = () => {
@@ -35,9 +36,8 @@ const Sidebar = () => {
 
             </ul >
 
-            <div className="legal">
-                &copy; 2017 by trillo. All rights reserved.
-            </div>
+            <Legal />
+            
         </nav >
     )
 }

@@ -108,6 +108,7 @@ const Detail = () => {
                     Show all
                     <span>&rarr;</span>
                 </button>
+                
             </div>
 
         </>
